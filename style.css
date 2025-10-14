@@ -1,3 +1,8 @@
+/* Information:
+Maine CSS me elements ke liye alag colors use kiye hain. 
+Pink, green, yellow aur blue colors se groups ko alag dikhaya hai. 
+Outset border se table ko 3D aur attractive look diya hai. */
+
 .pink{background-color:#f96995;
 border: 2px outset #f96995;}
 
