@@ -1,16 +1,50 @@
 /* Information:
-Maine CSS me elements ke liye alag colors use kiye hain. 
-Pink, green, yellow aur blue colors se groups ko alag dikhaya hai. 
-Outset border se table ko 3D aur attractive look diya hai. */
+Is CSS me chaar classes (.pink, .green, .yellow, .blue) hain jinme alag background aur border colors diye gaye hain.
+Transition aur :hover se mouse par aane par color dark hota hai aur black shadow dikhai deti hai,
+jis se boxes stylish aur attractive lagte hain */
+ 
+/* (Transition: all 0.3s ease;) ye maine ChatGPT se seekha hai.
+Ye property hover effect ko smooth banati hai aur color change ko soft dikhati hai. */
+.pink {
+    background-color: #f96995;
+    border: 2px outset #f96995;
+    transition: all 0.3s ease;
+}
 
-.pink{background-color:#f96995;
-border: 2px outset #f96995;}
+.pink:hover {
+    background-color: #e75480;
+    box-shadow: 0 4px 10px black;
+}
 
-.green{background-color: #66ff66;
-border: 2px outset #66ff66;}
+.green {
+    background-color: #66ff66;
+    border: 2px outset #66ff66;
+    transition: all 0.3s ease;
+}
 
-.yellow{background-color:	#FCF55F;
-border: 2px outset #FCF55F;}
+.green:hover {
+    background-color: #33cc33;
+    box-shadow: 0 4px 10px black;
+}
 
-.blue{background-color: #42a5f5;
-border: 2px outset #42a5f5;}
+.yellow {
+    background-color: #FCF55F;
+    border: 2px outset #FCF55F;
+    transition: all 0.3s ease;
+}
+
+.yellow:hover {
+    background-color: #e6da37;
+    box-shadow: 0 4px 10px black;
+}
+
+.blue {
+    background-color: #42a5f5;
+    border: 2px outset #42a5f5;
+    transition: all 0.3s ease;
+}
+
+.blue:hover {
+    background-color: #1e88e5;
+    box-shadow: 0 4px 10px black;
+}
