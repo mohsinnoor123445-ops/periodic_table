@@ -1,10 +1,23 @@
 /* Information:
 Is CSS me chaar classes (.pink, .green, .yellow, .blue) hain jinme alag background aur border colors diye gaye hain.
 Transition aur :hover se mouse par aane par color dark hota hai aur black shadow dikhai deti hai,
-jis se boxes stylish aur attractive lagte hain */
- 
+jis se boxes stylish aur attractive lagte hain.
+Body tag me font-family use kiya gaya hai taake poore page ka text ek jaisa aur readable lage.
+h1 tag me ID ka use karke uska font style alag aur pele ki tara rakha hai. */
+
 /* (Transition: all 0.3s ease;) ye maine ChatGPT se seekha hai.
-Ye property hover effect ko smooth banati hai aur color change ko soft dikhati hai. */
+Ye property hover effect ko smooth banati hai aur color change ko soft dikhati hai.
+OR
+Or ya bhi(transform: scale(1.05);) hover par box ko 5% bada karta hai, jisse
+design thoda zoomed aur attractive lagta hai. */
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1{font-family: serif;
+}
+
 .pink {
     background-color: #f96995;
     border: 2px outset #f96995;
@@ -14,6 +27,7 @@ Ye property hover effect ko smooth banati hai aur color change ko soft dikhati h
 .pink:hover {
     background-color: #e75480;
     box-shadow: 0 4px 10px black;
+    transform: scale(1.05);
 }
 
 .green {
@@ -25,6 +39,7 @@ Ye property hover effect ko smooth banati hai aur color change ko soft dikhati h
 .green:hover {
     background-color: #33cc33;
     box-shadow: 0 4px 10px black;
+    transform: scale(1.05);
 }
 
 .yellow {
@@ -36,6 +51,7 @@ Ye property hover effect ko smooth banati hai aur color change ko soft dikhati h
 .yellow:hover {
     background-color: #e6da37;
     box-shadow: 0 4px 10px black;
+    transform: scale(1.05);
 }
 
 .blue {
@@ -47,4 +63,5 @@ Ye property hover effect ko smooth banati hai aur color change ko soft dikhati h
 .blue:hover {
     background-color: #1e88e5;
     box-shadow: 0 4px 10px black;
+    transform: scale(1.05);
 }
